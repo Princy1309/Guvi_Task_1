@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Solution6 {
+    public static void main(String[] args) {
+        int n = 5; // number of rows
+
+        for (int i = 5; i >= 1; i--) {
+            // Print descending numbers from 5 to i
+            for (int j = 5; j >= i; j--) {
+                System.out.print(j);
+            }
+
+            // Print the value i, repeated (i - 1) times
+            for (int k = 1; k < i; k++) {
+                System.out.print(i);
+            }
+                 System.out.println();
+        }
+    }
+}
